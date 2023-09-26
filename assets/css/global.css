@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap');
+
+:root{
+    --green-color: #02B553;
+    --light-color: #D6D4E2;
+    --black-color: #18161F;
+}
+
+body{
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
+    display: flex;
+    background-color: #F5F4F6;
+}
+
+h1{
+    font-size: 22.265px;
+    color: #262331;
+}
+
+.content {
+    height: 100vh;
+    width: 100vw;
+}
+
+.content-add{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-height: 50%;
+    padding: 3rem 0;
+}
+
+.content-add-top{
+    display: flex;
+    flex-direction: row;
+    min-width: 50%;
+}
+
+#task-img, .board-img {
+    padding-right: .8rem;
+}
+
+.content-add-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 50%;
+}
+
+#new-task {
+    min-width: 70%;
+    border-style: solid;
+    border-color: var(--light-color);
+    background-color: white;
+    color: var(--black-color);
+}
+
+#new-task::placeholder {
+    color: #787490;
+}
+
+#new-task:focus{
+    outline: none;
+    border: 2.5px solid var(--green-color);
+}
+
+#new-task-btn:hover{
+    border: 2px solid var(--black-color);
+    cursor: pointer;
+}
+
+
+#new-task-btn, #new-task{
+    padding: .8rem;
+    border-radius: .8em;
+}
+
+#new-task-btn{
+    background-color: var(--green-color);
+    border: none;
+    color: white;
+}
+
+.board{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+.board-title{
+    display: flex;
+    flex-direction: row;
+    min-width: 50%;
+}
+
+.board-task {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    width: 50%;
+    justify-content: space-between;
+    height: 3.5em;
+    padding: .5em 0;
+    margin: 0 1em;
+    border-radius: 1em;
+    margin-bottom: 1em;
+}
+
+.board-task:hover{
+    border: 2.5px solid var(--green-color);
+}
+
+.board-task>div{
+    display: flex;
+    flex-direction: row;
+    padding-left: 1.2em;
+}
+
+.remove-img{
+    padding-right: 1.2em;
+}
+
+.remove-img, .complete-img{
+    cursor: pointer;
+}
+
+.complete-img{
+    max-width: 24px;
+}
+
+.task-description{
+    padding: .2em 0 0 1.5em;
+    color: var(--black-color);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.line-text{
+    text-decoration: line-through var(--green-color);
+    color: var(--green-color);
+}

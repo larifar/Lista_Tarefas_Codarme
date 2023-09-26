@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/global.css">
+    <script src="./assets/scripts/script.js" defer></script>
+</head>
+<body>
+    <main class="content">
+        <div class="content-add">
+            <div class="content-add-top">
+                <img src="./assets/imgs/task.svg" id="task-img">
+                <h1>Adicionar uma tarefa</h1>
+            </div>
+            <div class="content-add-bottom">
+                <input type="text" name="new-task" id="new-task" placeholder="Descreva a tarefa">
+                <input type="submit" id="new-task-btn" value="Adicionar tarefa">
+            </div>
+        </div>
+        <div class="board">
+            <div class="board-title">
+                <img src="./assets/imgs/board.svg" alt="" class="board-img">
+                <h1>Quadro de Tarefas</h1>
+            </div>
+
+            <div class="board-task">
+                <div>
+                    <img src="./assets/imgs/Frame.svg" alt="" class="complete-img">
+                    <p class="task-description">BlaBlaBla</p>
+                </div>
+                <img src="./assets/imgs/remove.svg" alt="" class="remove-img">
+            </div>
+
+            <div class="board-task">
+                <div>
+                    <img src="./assets/imgs/check.svg" alt="" class="complete-img">
+                    <p class="task-description line-text">BlaBlaBla</p>
+                </div>
+                <img src="./assets/imgs/remove.svg" alt="" class="remove-img">
+            </div>
+        </div>
+    </main>
+</body>
+</html>
