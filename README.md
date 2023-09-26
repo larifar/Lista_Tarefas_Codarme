@@ -1,8 +1,8 @@
 # Lista_Tarefas_Codarme
 
 ## Descrição
-Este projeto foi desenvolvido como parte de um desafio da Codarme em que o design no [Figma](https://www.figma.com/file/wauNqFLNyPlyMei9q548Oj/N%C3%ADvel-3-%E2%80%A2-Desafio-3-%E2%80%A2-Lista-de-tarefas?type=design&node-id=1-1308&mode=design&t=CwKAqbz4NyNGeEaO-0) era disponibilizado. O objetivo era criar uma lista de tarefas com as seguintes funcionalidades: adicionar, apagar e marcar tarefas como concluídas, 
-com a capacidade de riscar o texto das tarefas quando marcadas como concluídas. Utilizei HTML, CSS e JavaScript para desenvolver a página.
+Este projeto foi desenvolvido como parte de um desafio da Codarme em que o design no [Figma](https://www.figma.com/file/wauNqFLNyPlyMei9q548Oj/N%C3%ADvel-3-%E2%80%A2-Desafio-3-%E2%80%A2-Lista-de-tarefas?type=design&node-id=1-1308&mode=design&t=CwKAqbz4NyNGeEaO-0) era disponibilizado. O objetivo era criar uma lista de tarefas em uma página web, com as seguintes funcionalidades: adicionar, apagar e marcar tarefas como concluídas, 
+com a capacidade de riscar o texto das tarefas quando marcadas como concluídas. Utilizei HTML, CSS e JavaScript para desenvolver a página. [Projeto desenvolvido](https://larifar.github.io/Lista_Tarefas_Codarme/).
 
 ## Tecnologias
 - HTML
